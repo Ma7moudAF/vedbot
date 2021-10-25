@@ -22,6 +22,9 @@ async def start(_, message: Message):
                         "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/DeshaXBlacck"
                     ),
                     InlineKeyboardButton(
+                        "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/MANIAL_XBLACK"
+                    ),
+                    InlineKeyboardButton(
                         "ᴄʜᴀɴɴᴇʟ", url="https://t.me/music_Desha1"
                     )    
                 ],[ 
