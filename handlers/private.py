@@ -2,6 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from config import BOT_NAME as bn
+from config import BOT_USER as USR
 from helpers.filters import other_filters2
 
 
@@ -11,24 +12,21 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {bn} 🎀
 ɪ ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ʏᴏᴜʀ  ɢʀᴏᴜᴩ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ. 
-ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ Developed By [ᴡᴀʀʙᴏᴛᴢ](https://t.me/thewarbotZ) !**
+ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴘʟᴀʏ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ Developed By [MANIAL](https://t.me/MANIAL_XBLACK) !**
 
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔨Source Code🔨", url="https://github.com/xabhish3k/camillavcbot2.0")
-                  ],[
-                    InlineKeyboardButton(
-                        "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/warbotzsupport"
+                        "sᴜᴘᴘᴏʀᴛ👿", url="https://t.me/DeshaXBlacck"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ", url="https://t.me/thewarbotz"
+                        "ᴄʜᴀɴɴᴇʟ", url="https://t.me/music_Desha1"
                     )    
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/camillamusicbot?startgroup=true"
+                        "➕ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕", url="https://t.me/{USR}?startgroup=true"
                     )]
             ]
         ),
@@ -42,7 +40,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/thewarbotz")
+                        "🔊Uᴩᴅᴀᴛᴇs", url="https://t.me/music_Desha1")
                 ]
             ]
         )
