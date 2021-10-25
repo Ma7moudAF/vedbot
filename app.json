@@ -7,11 +7,13 @@
   "env": {
     "SESSION_NAME": {
       "description": "Pyrogram session string",
-      "required": true
+      "required": false,
+      "value": "CODE termux"
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
-      "required": true
+      "required": false,
+      "value": "TOKEN YOUR BOT"
     },
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
