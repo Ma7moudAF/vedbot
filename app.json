@@ -18,6 +18,11 @@
       "required": false,
       "value": "NAME YOUR BOT"
     },
+    "BOT_USER": {
+      "description": "Your MusicPlayer Bot User.",
+      "required": false,
+      "value": "USER YOUR BOT"
+    },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
       "required": true
